@@ -5,3 +5,4 @@
 
 ### **Mục Lục**
 
+[1. Substitution](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/1.%20Substitution/readme.md)
