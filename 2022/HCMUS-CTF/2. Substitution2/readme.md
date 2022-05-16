@@ -71,4 +71,5 @@ LNSQUSEZXRERDXCGCGCKRCSWJEFTSLRZFFTRFGEREXPGHSECFNSFZTJLANGFFSEDREPURPSZSNFRGEDS
 Tiếp tục ném đoạn output này vào [tool](https://www.dcode.fr/monoalphabetic-substitution) ta liền thu được flag
 
 ![](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/2.%20Substitution2/image.png)
+
 Thêm vài kí tự cho đúng format `FLAG: HCMUS-CTF{NO_SPACES_AND_POLYALPHABETIC_IS_SECURE_ISNT_IT}`
