@@ -116,4 +116,7 @@ c = SignatureScheme()
 c.main()
 ```
 
-Đọc qua source code thì mình có thể xác định được dạng bài của bài này chính là DSA
+Đọc qua source code thì mình có thể xác định được dạng bài của bài này chính là [DSA](https://ctf-wiki.mahaloz.re/crypto/signature/dsa/)
+
+### Ý tưởng:
+Mình sẽ gửi `msg = b'\0x00'*32` để `sum = 0` rồi suy ra `k = 1`
