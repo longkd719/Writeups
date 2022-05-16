@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sign Me
 > Đề bài cho file [chal.py](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/4.%20SignMe/chal.py)
 >
@@ -120,3 +121,5 @@ c.main()
 
 ### Ý tưởng:
 Mình sẽ gửi `msg = b'\0x00'*32` để `sum = 0` rồi suy ra `k = 1`
+=======
+>>>>>>> parent of 3d1c8ed (Update readme.md)
