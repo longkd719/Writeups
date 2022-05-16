@@ -1,5 +1,5 @@
 # Substitution2
-> Challenge cho 2 file [chal.py](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/2.%20Substitution2/chal.py) và [msg_enc.txt](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/2.%20Substitution2/msg_enc.txt)
+> Challenge cho 2 file [chal.py](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF%20Quals/2.%20Substitution2/chal.py) và [msg_enc.txt](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF%20Quals/2.%20Substitution2/msg_enc.txt)
 
 `chal.py`
 ```py
@@ -46,6 +46,7 @@ Theo như source code thì ta biết được rằng msg được mã hoá theo 
 `msg = inv_subs(inv_shift(msg_enc, offset), sbox)` 
 
 ### Tìm inv_shift(msg_enc, offset):
+[solve.py](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF%20Quals/2.%20Substitution2/solve.py)
 ```py
 ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 ct="MOTRVZLGEYDQCWBHDHDLYJZDQDESRKSAGGUYMNLYDWOFGTFDGOZMGAQKZMFEGTFESLWBYWRYRMESHFETMMZUJQDVYIJLHFSMNQLJIKCREGTODKGGBUHFESGQOYHFQSUZXBRDYFRDJKOTQOZUMSRMRFDSAUSUYGMZMFBEFAXHDGUNRBMFIDIKETGGTUJMAYEFBMIVQUEYMAZJYHRKIMSEJKDMYKKJQHNCRDKMGUYMKYLOTQORMKOHFJMYLGROFGRFSDTAMNQLQKRDOCHDUESLWBYWRREQQFXKSOZMAZPIBEYIJJKFBANKZTPAQDVZSOTOYUZKNURZFBTGUTOQLYLDQDQMRGUTJKJMGQPHIDNQHODKMKZMMZMBERMJTXLHWUYPJIMVFOOSPUDYLDJJRREEQFXMMSUZMAZHIBEYKJJKFUZVZYEBESRFKFDTLJZVAMQBRRGSKHFJAUDKTMRNMTDTFGJMAZPIBEKMTRVTFMKZMMRMBFDGYPHAYKZLWCFBSCSFQVSWZMZIESYHTDAGMFQ_JVYYRB_QFX_PKKEYKVSQJREHA_HD_JZGBMR_FBFG_HG"
@@ -70,6 +71,6 @@ LNSQUSEZXRERDXCGCGCKRCSWJEFTSLRZFFTRFGEREXPGHSECFNSFZTJLANGFFSEDREPURPSZSNFRGEDS
 ```
 Tiếp tục ném đoạn output này vào [tool](https://www.dcode.fr/monoalphabetic-substitution) ta liền thu được flag
 
-![](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/2.%20Substitution2/image.png)
+![](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF%20Quals/2.%20Substitution2/image.png)
 
 Thêm vài kí tự cho đúng format `FLAG: HCMUS-CTF{NO_SPACES_AND_POLYALPHABETIC_IS_SECURE_ISNT_IT}`
