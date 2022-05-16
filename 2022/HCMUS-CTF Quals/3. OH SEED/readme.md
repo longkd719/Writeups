@@ -1,7 +1,7 @@
 # OH SEED
 > nc 103.245.250.31 30620
 ### Kết nối server
-![](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/3.%20OH%20SEED/image.png)
+![](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF%20Quals/3.%20OH%20SEED/image.png)
 
 Ta thấy server cho ta 665 số ngẫu nhiên và server yêu cầu chúng ta nhập số mà nó random tiếp theo
 
@@ -9,7 +9,7 @@ Bài này mình biết được đây là bài dạng [Mersenne Twister Recover]
 
 Các số random trong bài này được tạo bởi một seed riêng. Mục tiêu của chúng ta là phải khôi phục lại cái seed đó. Ở đây mình đã có một [tool](https://github.com/eboda/mersenne-twister-recover) sẵn để có thể solve bài này.
 
-[solve.py:](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF/3.%20OH%20SEED/solve.py)
+[solve.py:](https://github.com/longkd719/Writeups/blob/main/2022/HCMUS-CTF%20Quals/3.%20OH%20SEED/solve.py)
 
 ```py
 import random
